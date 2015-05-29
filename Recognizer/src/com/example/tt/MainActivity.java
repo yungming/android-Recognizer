@@ -23,7 +23,7 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
  private static final int RQS_VOICE_RECOGNITION = 1;
  TextView textResult;
- String setting = "設定";
+ String setting = "閮剖��";
 
 	private ImageView mImg;
 	   private DisplayMetrics mPhone;
@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
     for (int i = 0; i < result.size(); i++) 
     {
 
-        if (setting.equals(result.get(i))) {//講"設定" 打電話 
+        if (setting.equals(result.get(i))) {
             Intent intent = new Intent(
               "com.android.settings.TTS_SETTINGS");
             startActivity(intent);
