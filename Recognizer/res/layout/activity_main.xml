@@ -11,12 +11,6 @@
         android:layout_height="wrap_content"
         android:text="Speech" />
 
-    <Button
-        android:id="@+id/callphone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="callphone"
-        android:text="設定" />
 
     <TextView
         android:id="@+id/Result"
